@@ -8,6 +8,7 @@ import { VisitModule } from "./visit/visit.module";
 import { KundliModule } from "./kundli/kundli.module";
 import { PredictionModule } from "./prediction/prediction.module";
 import { AuthModuleModule } from "./authmodule/authmodule.module";
+import { PaymentModule } from "./payment/payment.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -34,6 +35,7 @@ import { AuthModule } from "./auth/auth.module";
     KundliModule,
     PredictionModule,
     AuthModuleModule,
+    PaymentModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
